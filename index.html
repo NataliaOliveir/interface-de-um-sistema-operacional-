@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador Windows - Bloco de Notas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="desktop">
+    <div class="icon" id="icon-trash" style="left: 20px; top: 20px;">
+      <img src="../img/download-removebg-preview.png" alt="Lixeira">
+      <span>Lixeira</span>
+    </div>
+
+    <div class="icon" id="icon-notepad" style="left: 20px; top: 120px;">
+      <img src="../img/images-removebg-preview.png" alt="Bloco de Notas">
+      <span>Bloco de Notas</span>
+    </div>
+  </div>
+
+  <div class="window" id="notepad">
+    <div class="title-bar">
+      <span>Bloco de Notas</span>
+      <button id="closeBtn">×</button>
+    </div>
+    <div class="window-content">
+      <textarea id="textArea" placeholder="Digite aqui..."></textarea>
+      <div class="buttons">
+        <button id="saveLocalBtn">Salvar no Navegador</button>
+        <button id="downloadBtn">Baixar .txt</button>
+        <button id="clearBtn">Limpar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Barra de tarefas -->
+  <div id="taskbar">
+    <div id="start-button">
+      <img src="../img/download-removebg-preview (2).png" alt="Menu Iniciar">
+    </div>
+    <div id="taskbar-icons">
+      <a href="https://www.google.com" target="_blank">
+        <img src="../img/download-removebg-preview (4).png" alt="Google">
+      </a>
+    </div>
+  </div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
